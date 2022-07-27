@@ -58,7 +58,7 @@ To check if your commits pass linting, do::
 
     make tidy-lint
 
-Note, the above command lints every commit since branching from master.
+Note, the above command lints every commit since branching from main.
 You can also run ``make shell`` and run ``git tidy`` commands inside
 the docker environment to do other flavors of ``git tidy`` commands.
 
@@ -77,7 +77,7 @@ A shortcut for opening them (on OSX) is::
 Releases and Versioning
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Anything that is merged into the master branch will be automatically deployed
+Anything that is merged into the main branch will be automatically deployed
 to PyPI. Documentation will be published to a ReadTheDocs at
 ``https://{{cookiecutter.repo_name}}.readthedocs.io/``.
 

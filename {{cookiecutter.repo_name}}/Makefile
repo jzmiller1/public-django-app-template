@@ -142,7 +142,7 @@ lint:
 # Lint commit messages
 .PHONY: tidy-lint
 tidy-lint:
-	$(DOCKER_EXEC_WRAPPER) git tidy-lint origin/master..
+	$(DOCKER_EXEC_WRAPPER) git tidy-lint origin/main..
 
 
 # Perform a tidy commit
@@ -154,7 +154,7 @@ tidy-commit:
 # Perform a tidy squash
 .PHONY: tidy-squash
 tidy-squash:
-	$(DOCKER_EXEC_WRAPPER) git tidy-squash origin/master
+	$(DOCKER_EXEC_WRAPPER) git tidy-squash origin/main
 
 
 # Format code with black

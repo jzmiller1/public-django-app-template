@@ -68,7 +68,7 @@ _
 Once all of this is complete, the user can take advantage of all of the
 scaffolding provided by the template, which includes:
 
-1. Automatic deployment to PyPI when merging into the master
+1. Automatic deployment to PyPI when merging into the main
    (see ``.circleci/config.yaml``).
 2. Flake8 integration (see ``setup.cfg`` for configuration).
 3. Coverage integration (see ``setup.cfg`` for coverage configuration).

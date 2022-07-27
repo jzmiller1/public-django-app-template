@@ -259,7 +259,7 @@ def github_push_initial_repo(
     _shell('git commit ' + ' '.join(f'-m "{msg}"' for msg in initial_commit))
     _shell(f'git remote add origin {remote}')
 
-    ret = _shell('git push origin master', check=False)
+    ret = _shell('git push origin main', check=False)
     if ret.returncode != 0:
         msg = 'There was an error when pushing the initial repository.'
         prompt_msg = (
@@ -345,13 +345,13 @@ def temple_setup():
     )
     github_create_repo(REPO_NAME, DESCRIPTION)
 
-    print('Creating initial repository and pushing to master.')
+    print('Creating initial repository and pushing to main.')
     github_push_initial_repo(REPO_NAME)
 
     print('Setting up default branch protection.')
     github_setup_branch_protection(
         REPO_NAME,
-        'master',
+        'main',
         {
             'required_pull_request_reviews': None,
             'required_status_checks': {

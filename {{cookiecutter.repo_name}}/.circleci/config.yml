@@ -48,7 +48,7 @@ jobs:
       - restore_cache:
           key: v2-{{ checksum "poetry.lock" }}
       - run: make dependencies
-      - run: git tidy-log origin/master..
+      - run: git tidy-log origin/main..
       - run: make tidy-lint
 
   deploy:
@@ -71,7 +71,7 @@ workflows:
       - check_changelog:
           filters:
             branches:
-              ignore: master
+              ignore: main
       - deploy:
           context: public-django-app
           requires:
@@ -79,5 +79,5 @@ workflows:
             - lint
           filters:
             branches:
-              only: master
+              only: main
 {% endraw -%}
