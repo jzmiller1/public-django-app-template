@@ -43,8 +43,8 @@ classifiers = [
 ]
 license = "BSD-3-Clause"
 readme = "README.rst"
-homepage = "https://github.com/jzmiller1/{{cookiecutter.repo_name}}"
-repository = "https://github.com/jzmiller1/{{cookiecutter.repo_name}}"
+homepage = "https://github.com/InformaticalAnalyticsLLC/{{cookiecutter.repo_name}}"
+repository = "https://github.com/InformaticalAnalyticsLLC/{{cookiecutter.repo_name}}"
 documentation = "https://{{cookiecutter.repo_name}}.readthedocs.io"
 
 [tool.poetry.dependencies]

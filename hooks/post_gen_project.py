@@ -13,7 +13,7 @@ MODULE_NAME = "{{cookiecutter.module_name}}"
 DESCRIPTION = "{{cookiecutter.short_description}}"
 TEMPLE_ENV_VAR = '_TEMPLE'
 GITHUB_API_TOKEN_ENV_VAR = 'GITHUB_API_TOKEN'
-GITHUB_ORG_NAME = 'jzmiller1'
+GITHUB_ORG_NAME = 'InformaticalAnalyticsLLC'
 GITHUB_REPO_API = f'/orgs/{GITHUB_ORG_NAME}/repos'
 CIRCLECI_API_TOKEN_ENV_VAR = 'CIRCLECI_API_TOKEN'
 
