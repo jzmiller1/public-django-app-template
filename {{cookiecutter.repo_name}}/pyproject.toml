@@ -29,7 +29,7 @@ packages = [
 ]
 version = "0.0.0"
 description = "{{cookiecutter.short_description}}"
-authors = ["Opus 10 Engineering"]
+authors = ["Zac Miller"]
 classifiers = [
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
@@ -43,8 +43,8 @@ classifiers = [
 ]
 license = "BSD-3-Clause"
 readme = "README.rst"
-homepage = "https://github.com/Opus10/{{cookiecutter.repo_name}}"
-repository = "https://github.com/Opus10/{{cookiecutter.repo_name}}"
+homepage = "https://github.com/jzmiller1/{{cookiecutter.repo_name}}"
+repository = "https://github.com/jzmiller1/{{cookiecutter.repo_name}}"
 documentation = "https://{{cookiecutter.repo_name}}.readthedocs.io"
 
 [tool.poetry.dependencies]

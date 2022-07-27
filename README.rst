@@ -12,7 +12,7 @@ project.
 A new public Django app can be started with::
 
     pip3 install temple
-    temple setup git@github.com:Opus10/public-django-app-template.git
+    temple setup git@github.com:jzmiller1/public-django-app-template.git
 
 **Note** when calling ``temple setup``, a project will be created locally and
 it will also be set up on Github and CircleCI for continuous deployment.
@@ -54,7 +54,7 @@ What Does This Template Provide?
 ================================
 
 When using this template with
-``temple setup git@github.com:Opus10/public-django-app-template.git``,
+``temple setup git@github.com:jzmiller1/public-django-app-template.git``,
 the ``hooks/pre_gen_project.py`` and ``hooks/post_gen_project.py`` files will
 be called to bootstrap your Python project. The following steps are taken:
 _
@@ -95,7 +95,7 @@ ReadTheDocs Setup
 
 This template does not automatically set up readthedocs.org integration.
 In order to do that, go to https://readthedocs.org/dashboard/import/,
-click "Opus 10", and refresh the repositories. Import the
+click "jzmiller1", and refresh the repositories. Import the
 project with the default values.
 
 Once the project has been followed, go to
@@ -124,7 +124,7 @@ It is important to keep any changes to the templated files of this project to
 a minimum, otherwise ``temple update`` will produce diffs that can be
 difficult to merge. Along with that, minimally editing the templated files
 ensures that your Python library project behaves similarly to all of the other
-ones at Opus 10. If there is an error in the templated files or a change that
+ones at jzmiller1. If there is an error in the templated files or a change that
 needs to be propagated to every package (e.g. updating Python), then the change
 should be made in this template repository.
 
@@ -166,8 +166,8 @@ documentation folders for the following:
 2. `temple <https://github.com/CloverHealth/temple/tree/master/docs>`__
 
 Remember that one can also perform
-``temple ls git@github.com:Opus10/public-django-app-template.git`` to see a
-list of all projects spun up with this template for examples at Opus 10.
+``temple ls git@github.com:jzmiller1/public-django-app-template.git`` to see a
+list of all projects spun up with this template for examples at jzmiller1.
 
 Building docs also comes with this template. In order to build and look at docs
 locally, one has to first set up the project with ``make setup`` and then
@@ -276,11 +276,11 @@ Why Use This Template?
 ----------------------
 
 Using this template ensures that your Python package behaves like all of the
-other Django apps at Opus 10, all the way from local development to
+other Django apps at jzmiller1, all the way from local development to
 documentation to production deployment. Having all of our Django
 apps set up, documented, and deployed in similar ways decreases the
 cognitive load for others using, fixing, and maintaining your tool.
 
 Using this template also ensures your package is kept up to date with changes
-at Opus 10, such as when we upgrade Python to newer versions or potentially
+at jzmiller1, such as when we upgrade Python to newer versions or potentially
 switch to a different packaging index.

@@ -77,8 +77,8 @@ default_role = 'any'
 
 # General information about the project.
 project = u'{{cookiecutter.repo_name}}'
-copyright = u'2022, Opus 10'
-author = u'Opus 10 Engineering'
+copyright = u'2022, Zac Miller'
+author = u'Zac Miller'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -160,7 +160,7 @@ latex_documents = [
         master_doc,
         '{{cookiecutter.repo_name}}.tex',
         u'{{cookiecutter.repo_name}} Documentation',
-        u'Opus 10',
+        u'Zac Miller',
         'manual',
     )
 ]

@@ -10,7 +10,7 @@ Setup
 
 Set up your development environment with::
 
-    git clone git@github.com:Opus10/{{cookiecutter.repo_name}}.git
+    git clone git@github.com:jzmiller1/{{cookiecutter.repo_name}}.git
     cd {{cookiecutter.repo_name}}
     make setup
 

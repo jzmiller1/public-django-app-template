@@ -13,7 +13,7 @@ MODULE_NAME = "{{cookiecutter.module_name}}"
 DESCRIPTION = "{{cookiecutter.short_description}}"
 TEMPLE_ENV_VAR = '_TEMPLE'
 GITHUB_API_TOKEN_ENV_VAR = 'GITHUB_API_TOKEN'
-GITHUB_ORG_NAME = 'Opus10'
+GITHUB_ORG_NAME = 'jzmiller1'
 GITHUB_REPO_API = f'/orgs/{GITHUB_ORG_NAME}/repos'
 CIRCLECI_API_TOKEN_ENV_VAR = 'CIRCLECI_API_TOKEN'
 
@@ -375,7 +375,7 @@ def temple_setup():
 
     get_user_input(
         'Final step! Go to'
-        ' https://github.com/Opus10/public-django-app-template'
+        ' https://github.com/jzmiller1/public-django-app-template'
         '#readthedocs-setup'
         ' and read the instructions for ReadTheDocs integration. If you bypass'
         ' this step, your docs will not build properly. Hit "return" after'
@@ -402,7 +402,7 @@ if __name__ == '__main__':
     # temple commands (e.g ``temple update``)
     if os.getenv(TEMPLE_ENV_VAR) == 'setup':
         prompt_msg = (
-            f'Your Opus 10 Github repo name will be "{REPO_NAME}"'
+            f'Your Github repo name will be "{REPO_NAME}"'
             f' and packages will be installed with "pip install {REPO_NAME}".'
             f' Python imports will happen as "import {MODULE_NAME}".'
             ' It is very difficult to change these names after the project'
